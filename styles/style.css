@@ -321,6 +321,7 @@ svg {
   }
   .founder-img {
     width: 17.5625rem;
+    height: 17.5625rem;
     position: absolute;
     top: -13.125rem;
     left: 0;
@@ -405,6 +406,7 @@ svg {
   }
   .founder-img {
     width: 29.8125rem;
+    height: 29.8125rem;
     top: -14.125rem;
   }
   .test-txt {
