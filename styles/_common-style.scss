@@ -1,0 +1,45 @@
+@mixin flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin grid-btn--centering {
+  display: grid;
+  place-items: center;
+}
+
+@mixin mobile-tablet-btn {
+  color: $darkBlue;
+  background-color: $lightGreen;
+  font-weight: $fw-btn;
+  font-size: rem(16);
+  line-height: 2;
+}
+
+@mixin navbar-cta {
+  color: $white;
+  font-weight: $fw-btn;
+  border-bottom: 3px solid $lightGreen;
+}
+
+@mixin navbar-cta--hover {
+  color: $lightGreen;
+}
+
+@mixin number-circle {
+  font-family: $ff-heading;
+  border: 1px solid $darkBlue;
+  font-weight: 600;
+  border-radius: 50%;
+  color: $darkBlue;
+}
+
+@mixin max-width--mobile {
+  max-width: calc(100vw - rem(32));
+  margin: 0 auto;
+}
+
+@mixin max-width--desktop {
+  max-width: calc(100vw - rem(330));
+}
