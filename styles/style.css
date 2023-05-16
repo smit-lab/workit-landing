@@ -20,6 +20,7 @@ body {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   font-family: "Manrope", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -247,6 +248,30 @@ svg {
     height: 26.25rem;
     margin-bottom: 14.5rem;
   }
+  .hero-container::before {
+    content: "";
+    background-image: url(/assets/images/bg-pattern-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 16.893125rem;
+    height: 13.44375rem;
+    background-position: center;
+    top: 0;
+    left: -10.9375rem;
+    position: absolute;
+  }
+  .hero-container::after {
+    content: "";
+    background-image: url(/assets/images/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8.3rem;
+    height: 9.2rem;
+    background-position: center;
+    bottom: 7.5rem;
+    right: -4.375rem;
+    position: absolute;
+  }
   .hero__heading {
     max-width: 35.8125rem;
     font-size: 3.75rem;
@@ -281,6 +306,18 @@ svg {
     max-width: 32.125rem;
     height: 23.4375rem;
   }
+  .test-txt::after {
+    content: "";
+    background-image: url(/assets/images/bg-pattern-3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 11.20625rem;
+    height: 9.375rem;
+    position: absolute;
+    bottom: -4.6875rem;
+    right: 0.9375rem;
+  }
   .founder-img {
     width: 17.5625rem;
     position: absolute;
@@ -303,6 +340,18 @@ svg {
   .hero-container {
     height: 35rem;
     margin-bottom: 18.75rem;
+  }
+  .hero-container::before {
+    width: 19.6340625rem;
+    height: 15.625rem;
+    top: 0;
+    left: -8rem;
+  }
+  .hero-container::after {
+    width: 9.021875rem;
+    height: 10rem;
+    bottom: 10rem;
+    right: -2.125rem;
   }
   .hero__heading {
     font-size: 5rem;
@@ -361,6 +410,13 @@ svg {
     max-width: 45.625rem;
     padding: 4rem;
     height: auto;
+    position: relative;
+  }
+  .test-txt::after {
+    width: 14.94375rem;
+    height: 12.5rem;
+    bottom: -4.0625rem;
+    right: 3.4375rem;
   }
   .test__heading {
     font-size: 3.5rem;
