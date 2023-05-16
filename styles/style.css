@@ -175,7 +175,8 @@ svg {
 }
 
 .founder-img {
-  max-width: 90%;
+  width: 19.305rem;
+  height: 19.305rem;
   margin: 0 auto;
   position: relative;
   z-index: -1;
